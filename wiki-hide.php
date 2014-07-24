@@ -1,12 +1,12 @@
 <?
 /* your definition here */
-$myKeyString = "..!";
+$lockString = "..!";
 $username = "myUser";
 $password = "myPass";
 $errorMessage = "You have to enter proper credentials to see the content!";
 /* end of your definition */
 
-if (strpos( $_SERVER[REQUEST_URI],$myKeyString) !== false) {
+if (strpos( $_SERVER[REQUEST_URI],$lockString) !== false) {
 
 	if (isset($_SERVER['PHP_AUTH_USER']) 
 			&& isset($_SERVER['PHP_AUTH_PW']) 
