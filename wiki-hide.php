@@ -3,7 +3,7 @@
 $myKeyString = "..!";
 $username = "myUser";
 $password = "myPass";
-$errorMessage = "You have to enter proper credentials to see the content!"
+$errorMessage = "You have to enter proper credentials to see the content!";
 /* end of your definition */
 
 if (strpos( $_SERVER[REQUEST_URI],$myKeyString) !== false) {
