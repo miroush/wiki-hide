@@ -1,4 +1,4 @@
-<?
+<?php
 /* your definition here */
 $lockString = "..!";
 $username = "myUser";
